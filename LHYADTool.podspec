@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 #  s.dependency "YYKit"
 #  s.dependency "UMCommon"
 #  s.dependency "SVProgressHUD"
-#  s.dependency "QMUIKit"
-#  s.dependency "Ads-CN", '~> 4.5.1.6'
+  s.dependency "QMUIKit"
+  s.dependency "Ads-CN", '~> 4.5.1.6'
 
 end
