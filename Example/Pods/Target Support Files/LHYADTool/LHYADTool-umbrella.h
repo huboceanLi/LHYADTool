@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "LHYADConfig.h"
+#import "LHYADInitTool.h"
+#import "LHYConfigManager.h"
+#import "LHYADTool.h"
+#import "LHYLinkViewController.h"
+#import "LHYBUAdLinkManager.h"
+#import "LHYReachability.h"
 
 FOUNDATION_EXPORT double LHYADToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char LHYADToolVersionString[];
