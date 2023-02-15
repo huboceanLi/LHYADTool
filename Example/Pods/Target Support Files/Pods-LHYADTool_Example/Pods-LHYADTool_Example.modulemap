@@ -1,0 +1,6 @@
+framework module Pods_LHYADTool_Example {
+  umbrella header "Pods-LHYADTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

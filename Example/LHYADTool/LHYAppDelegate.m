@@ -2,17 +2,31 @@
 //  LHYAppDelegate.m
 //  LHYADTool
 //
-//  Created by li437277219@gmail.com on 02/15/2023.
-//  Copyright (c) 2023 li437277219@gmail.com. All rights reserved.
+//  Created by admin@tmmtmm.com.tr on 02/15/2023.
+//  Copyright (c) 2023 admin@tmmtmm.com.tr. All rights reserved.
 //
 
 #import "LHYAppDelegate.h"
+#import <LHYADTool/LHYADTool.h>
+#import "LHYViewController.h"
 
 @implementation LHYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    LHYADConfig *config = [LHYADConfig new];
+    config.buAppId = @"5000546";
+    config.buLinkId = @"887383142";
+
+    __weak typeof(self) weakSelf = self;
+    [LHYADInitTool initTool:config window:self.window enter:^(BOOL pt) {
+        NSLog(@"我来了");
+        LHYViewController * loginVC = [[LHYViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+        weakSelf.window.rootViewController = nav;
+    }];
+    
     return YES;
 }
 

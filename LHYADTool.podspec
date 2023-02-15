@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHYADTool'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of LHYADTool.'
 
 # This description is used to generate tags and improve search results.
@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A short description of LHYADTool Test.
                        DESC
 
-  s.homepage         = 'https://github.com/li437277219@gmail.com/LHYADTool'
+  s.homepage         = 'https://github.com/huboceanLi/LHYADTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'li437277219@gmail.com' => 'li437277219@gmail.com' }
-  s.source           = { :git => 'https://github.com/li437277219@gmail.com/LHYADTool.git', :tag => s.version.to_s }
+  s.author           = { 'OceanLi' => 'li437277219@gmail.com' }
+  s.source           = { :git => 'https://github.com/huboceanLi/LHYADTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'LHYADTool/Classes/**/*'
-  
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+  s.static_framework = true
+
   # s.resource_bundles = {
   #   'LHYADTool' => ['LHYADTool/Assets/*.png']
   # }
@@ -39,4 +41,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+#  s.dependency "YYKit"
+#  s.dependency "UMCommon"
+#  s.dependency "SVProgressHUD"
+#  s.dependency "QMUIKit"
+#  s.dependency "Ads-CN", '~> 4.5.1.6'
+
 end

@@ -1,0 +1,6 @@
+framework module LHYADTool {
+  umbrella header "LHYADTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
