@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LHYADTool_Example' do
+  pod 'LHYADTool', :path => '../'
+
+  target 'LHYADTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
