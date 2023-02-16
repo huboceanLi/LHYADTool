@@ -20,6 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *buAppId;
 //buadsdk link id
 @property (nonatomic, strong) NSString *buLinkId;
+//buadsdk Rewarded id
+@property (nonatomic, strong) NSString *buRewardedId;
+//buadsdk Rewarded id
+@property (nonatomic, assign) BOOL isRequstRewarded;
 
 @end
 

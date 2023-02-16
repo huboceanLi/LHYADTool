@@ -16,6 +16,7 @@
 #import "LHYADTool.h"
 #import "LHYLinkViewController.h"
 #import "LHYBUAdLinkManager.h"
+#import "LHYBURewardedManager.h"
 #import "LHYReachability.h"
 
 FOUNDATION_EXPORT double LHYADToolVersionNumber;

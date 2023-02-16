@@ -10,5 +10,6 @@
 
 #import "LHYADConfig.h"
 #import "LHYADInitTool.h"
+#import "LHYBURewardedManager.h"
 
 #endif /* LHYADTool_h */

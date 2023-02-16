@@ -11,6 +11,7 @@
 #import "LHYReachability.h"
 #import <QMUIKit/QMUIKit.h>
 #import "LHYBUAdLinkManager.h"
+#import "LHYBURewardedManager.h"
 
 @interface LHYLinkViewController ()
 
@@ -107,6 +108,9 @@
     [[LHYBUAdLinkManager shared] registerAppId];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         __weak typeof(self) weakSelf = self;
+        if ([LHYConfigManager shareInstance].isRequstRewarded) {
+            [[LHYBURewardedManager shared] loadBURewarded];
+        }
         [[LHYBUAdLinkManager shared] loadSplashAdWithView:self close:^(BOOL close) {
             weakSelf.rootVC(YES);
         }];

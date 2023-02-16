@@ -73,7 +73,7 @@ static LHYBUAdLinkManager * configManager = nil;
 }
 
 - (void)splashAdLoadSuccess:(BUSplashAd *)splashAd {
-    NSLog(@"splashAdLoadSuccess");
+//    NSLog(@"splashAdLoadSuccess");
 }
 
 /// This method is called when material load failed
@@ -83,7 +83,7 @@ static LHYBUAdLinkManager * configManager = nil;
 
 /// This method is called when splash view render successful
 - (void)splashAdRenderSuccess:(BUSplashAd *)splashAd {
-    NSLog(@"splashAdRenderSuccess");
+//    NSLog(@"splashAdRenderSuccess");
 }
 
 /// This method is called when splash view render failed
@@ -93,7 +93,7 @@ static LHYBUAdLinkManager * configManager = nil;
 
 /// This method is called when splash view will show
 - (void)splashAdWillShow:(BUSplashAd *)splashAd {
-    NSLog(@"splashAdWillShow");
+//    NSLog(@"splashAdWillShow");
     [UIView animateWithDuration:0.25 animations:^{
         self.bgImageView.alpha = 0.0f;
     } completion:^(BOOL finished) {
@@ -103,26 +103,26 @@ static LHYBUAdLinkManager * configManager = nil;
 
 /// This method is called when splash view did show
 - (void)splashAdDidShow:(BUSplashAd *)splashAd {
-    NSLog(@"splashAdDidShow");
+//    NSLog(@"splashAdDidShow");
     self.bgImageView.hidden = YES;
 }
 
 /// This method is called when splash view is clicked.
 - (void)splashAdDidClick:(BUSplashAd *)splashAd {
-    NSLog(@"splashAdDidClick");
+//    NSLog(@"splashAdDidClick");
 
 }
 
 /// This method is called when splash view is closed.
 - (void)splashAdDidClose:(BUSplashAd *)splashAd closeType:(BUSplashAdCloseType)closeType {
-    NSLog(@"splashAdDidClose");
+//    NSLog(@"splashAdDidClose");
     self.close(YES);
     [self.splashAd removeSplashView];
 }
 
 /// This method is called when splash viewControllr is closed.
 - (void)splashAdViewControllerDidClose:(BUSplashAd *)splashAd {
-    NSLog(@"splashAdViewControllerDidClose");
+//    NSLog(@"splashAdViewControllerDidClose");
     [self.splashAd removeSplashView];
 }
 
@@ -131,11 +131,11 @@ static LHYBUAdLinkManager * configManager = nil;
  @param interactionType : open appstore in app or open the webpage or view video ad details page.
  */
 - (void)splashDidCloseOtherController:(BUSplashAd *)splashAd interactionType:(BUInteractionType)interactionType {
-    NSLog(@"splashDidCloseOtherController");
+//    NSLog(@"splashDidCloseOtherController");
 }
 
 /// This method is called when when video ad play completed or an error occurred.
 - (void)splashVideoAdDidPlayFinish:(BUSplashAd *)splashAd didFailWithError:(NSError *)error {
-    NSLog(@"%@",error);
+//    NSLog(@"%@",error);
 }
 @end

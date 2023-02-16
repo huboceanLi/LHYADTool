@@ -18,7 +18,11 @@
     LHYADConfig *config = [LHYADConfig new];
     config.buAppId = @"5000546";
     config.buLinkId = @"887383142";
-
+    config.buRewardedId = @"945494747";
+    config.isRequstRewarded = YES;
+    config.linkImage = [UIImage imageNamed:@"linkImage"];
+    config.linkRect = CGRectMake(0, 100, 300, 400);
+    
     __weak typeof(self) weakSelf = self;
     [LHYADInitTool initTool:config window:self.window enter:^(BOOL pt) {
         NSLog(@"我来了");

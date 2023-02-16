@@ -20,7 +20,9 @@
         [LHYConfigManager shareInstance].buAppId = config.buAppId;
         [LHYConfigManager shareInstance].linkImage = config.linkImage;
         [LHYConfigManager shareInstance].buLinkId = config.buLinkId;
-
+        [LHYConfigManager shareInstance].buRewardedId = config.buRewardedId;
+        [LHYConfigManager shareInstance].isRequstRewarded = config.isRequstRewarded;
+        
         if (config.linkRect.size.width <= 0.0) {
             [LHYConfigManager shareInstance].linkRect = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         }else {
