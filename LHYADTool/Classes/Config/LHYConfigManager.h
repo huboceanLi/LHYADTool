@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //link image
 @property (nonatomic, strong) UIImage *linkImage;
+//link
+@property (nonatomic, assign) CGRect linkRect;
 //buadsdk app id
 @property (nonatomic, strong) NSString *buAppId;
 //buadsdk link id

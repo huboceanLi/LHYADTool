@@ -8,6 +8,7 @@
 #import "LHYADInitTool.h"
 #import "LHYLinkViewController.h"
 #import "LHYConfigManager.h"
+#import <QMUIKit/QMUIKit.h>
 
 @implementation LHYADInitTool
 
@@ -20,6 +21,11 @@
         [LHYConfigManager shareInstance].linkImage = config.linkImage;
         [LHYConfigManager shareInstance].buLinkId = config.buLinkId;
 
+        if (config.linkRect.size.width <= 0.0) {
+            [LHYConfigManager shareInstance].linkRect = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+        }else {
+            [LHYConfigManager shareInstance].linkRect = config.linkRect;
+        }
         [NSThread sleepForTimeInterval:0.5];
         
         LHYLinkViewController *rootVC = [[LHYLinkViewController alloc] init];//根控制器

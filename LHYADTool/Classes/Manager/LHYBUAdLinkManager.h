@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)registerAppId;
 
-- (void)loadSplashAdWithView:(UIView *)adView close:(void (^)(BOOL close))close;
+- (void)loadSplashAdWithView:(UIViewController *)vc close:(void (^)(BOOL close))close;
 
 @end
 

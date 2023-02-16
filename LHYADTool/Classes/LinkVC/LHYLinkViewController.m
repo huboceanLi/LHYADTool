@@ -23,6 +23,16 @@
 
 @implementation LHYLinkViewController
 
+- (void)dealloc {
+    NSLog(@"LHYLinkViewController dealloc");
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBarHidden = YES;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -30,7 +40,7 @@
 
     if ([LHYConfigManager shareInstance].linkImage == nil) {
     }else {
-        UIImageView *bgImageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+        UIImageView *bgImageView = [[UIImageView alloc] initWithFrame:[LHYConfigManager shareInstance].linkRect];
         bgImageView.image = [LHYConfigManager shareInstance].linkImage;
         bgImageView.clipsToBounds = YES;
         bgImageView.contentMode = UIViewContentModeScaleAspectFill;
@@ -97,7 +107,7 @@
     [[LHYBUAdLinkManager shared] registerAppId];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         __weak typeof(self) weakSelf = self;
-        [[LHYBUAdLinkManager shared] loadSplashAdWithView:self.view close:^(BOOL close) {
+        [[LHYBUAdLinkManager shared] loadSplashAdWithView:self close:^(BOOL close) {
             weakSelf.rootVC(YES);
         }];
     });

@@ -12,7 +12,7 @@ static LHYBUAdLinkManager * configManager = nil;
 
 @interface LHYBUAdLinkManager()<BUSplashAdDelegate>
 
-@property (nonatomic, strong) BUSplashAdView *splashAdView;
+@property (nonatomic, strong) BUSplashAd *splashAd;
 @property (nonatomic, strong) UIImageView *bgImageView;
 @property (copy, nonatomic) void (^close)(BOOL close);
 
@@ -33,25 +33,23 @@ static LHYBUAdLinkManager * configManager = nil;
     [BUAdSDKManager setAppID:[LHYConfigManager shareInstance].buAppId];
 }
 
-- (void)loadSplashAdWithView:(UIView *)adView close:(void (^)(BOOL close))close
+- (void)loadSplashAdWithView:(UIViewController *)vc close:(void (^)(BOOL close))close
 {
     self.close = close;
     
-//    [self.splashAdView removeAllSubviews];
-    
-    self.splashAdView = [[BUSplashAdView alloc] initWithSlotID:[LHYConfigManager shareInstance].buLinkId frame:adView.bounds];
-    self.splashAdView.delegate = self;
-    [self.splashAdView loadAdData];
-    self.splashAdView.alpha = 0.0;
-    [adView addSubview:self.splashAdView];
+    self.splashAd = [[BUSplashAd alloc] initWithSlotID:[LHYConfigManager shareInstance].buLinkId adSize:vc.view.bounds.size];
+    self.splashAd.delegate = self;
+
+    [self.splashAd showSplashViewInRootViewController:vc];
+    [self.splashAd loadAdData];
 
     if ([LHYConfigManager shareInstance].linkImage == nil) {
     }else {
-        self.bgImageView = [[UIImageView alloc] initWithFrame:adView.bounds];
+        self.bgImageView = [[UIImageView alloc] initWithFrame:[LHYConfigManager shareInstance].linkRect];
         self.bgImageView.image = [LHYConfigManager shareInstance].linkImage;
         self.bgImageView.clipsToBounds = YES;
         self.bgImageView.contentMode = UIViewContentModeScaleAspectFill;
-        [adView addSubview:self.bgImageView];
+        [vc.view addSubview:self.bgImageView];
     }
 
     
@@ -73,86 +71,71 @@ static LHYBUAdLinkManager * configManager = nil;
 //   ];
     
 }
-/**
- This method is called when splash ad material loaded successfully.
- */
-- (void)splashAdDidLoad:(BUSplashAdView *)splashAd{
-    [UIView animateWithDuration:0.5 animations:^{
-        self.splashAdView.alpha = 1.0f;
+
+- (void)splashAdLoadSuccess:(BUSplashAd *)splashAd {
+    NSLog(@"splashAdLoadSuccess");
+}
+
+/// This method is called when material load failed
+- (void)splashAdLoadFail:(BUSplashAd *)splashAd error:(BUAdError *_Nullable)error {
+    NSLog(@"%@",error);
+}
+
+/// This method is called when splash view render successful
+- (void)splashAdRenderSuccess:(BUSplashAd *)splashAd {
+    NSLog(@"splashAdRenderSuccess");
+}
+
+/// This method is called when splash view render failed
+- (void)splashAdRenderFail:(BUSplashAd *)splashAd error:(BUAdError *_Nullable)error {
+    NSLog(@"%@",error);
+}
+
+/// This method is called when splash view will show
+- (void)splashAdWillShow:(BUSplashAd *)splashAd {
+    NSLog(@"splashAdWillShow");
+    [UIView animateWithDuration:0.25 animations:^{
         self.bgImageView.alpha = 0.0f;
     } completion:^(BOOL finished) {
-        
+
     }];
 }
 
-/**
- This method is called when splash ad material failed to load.
- @param error : the reason of error
- */
-- (void)splashAd:(BUSplashAdView *)splashAd didFailWithError:(NSError * _Nullable)error {
-    if (error) {
-        NSLog(@"%@",error);
-        self.close(YES);
-    }
-}
-
-/**
- This method is called when splash ad slot will be showing.
- */
-- (void)splashAdWillVisible:(BUSplashAdView *)splashAd {
-    
-}
-
-/**
- This method is called when splash ad is clicked.
- */
-- (void)splashAdDidClick:(BUSplashAdView *)splashAd {
-    self.close(YES);
-//    [self.splashAdView removeAllSubviews];
+/// This method is called when splash view did show
+- (void)splashAdDidShow:(BUSplashAd *)splashAd {
+    NSLog(@"splashAdDidShow");
     self.bgImageView.hidden = YES;
-    self.splashAdView = nil;
 }
 
-/**
- This method is called when splash ad is closed.
- */
-- (void)splashAdDidClose:(BUSplashAdView *)splashAd {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.close(YES);
-//        [self.splashAdView removeAllSubviews];
-        self.bgImageView.hidden = YES;
-        self.splashAdView = nil;
-    });
+/// This method is called when splash view is clicked.
+- (void)splashAdDidClick:(BUSplashAd *)splashAd {
+    NSLog(@"splashAdDidClick");
+
 }
 
-/**
- This method is called when splash ad is about to close.
- */
-- (void)splashAdWillClose:(BUSplashAdView *)splashAd {
-    
+/// This method is called when splash view is closed.
+- (void)splashAdDidClose:(BUSplashAd *)splashAd closeType:(BUSplashAdCloseType)closeType {
+    NSLog(@"splashAdDidClose");
+    self.close(YES);
+    [self.splashAd removeSplashView];
+}
+
+/// This method is called when splash viewControllr is closed.
+- (void)splashAdViewControllerDidClose:(BUSplashAd *)splashAd {
+    NSLog(@"splashAdViewControllerDidClose");
+    [self.splashAd removeSplashView];
 }
 
 /**
  This method is called when another controller has been closed.
  @param interactionType : open appstore in app or open the webpage or view video ad details page.
  */
-- (void)splashAdDidCloseOtherController:(BUSplashAdView *)splashAd interactionType:(BUInteractionType)interactionType {
-    
+- (void)splashDidCloseOtherController:(BUSplashAd *)splashAd interactionType:(BUInteractionType)interactionType {
+    NSLog(@"splashDidCloseOtherController");
 }
 
-/**
- This method is called when spalashAd skip button  is clicked.
- */
-- (void)splashAdDidClickSkip:(BUSplashAdView *)splashAd {
-    
+/// This method is called when when video ad play completed or an error occurred.
+- (void)splashVideoAdDidPlayFinish:(BUSplashAd *)splashAd didFailWithError:(NSError *)error {
+    NSLog(@"%@",error);
 }
-
-/**
- This method is called when spalashAd countdown equals to zero
- */
-- (void)splashAdCountdownToZero:(BUSplashAdView *)splashAd {
-    
-}
-
-
 @end
