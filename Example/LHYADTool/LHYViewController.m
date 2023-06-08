@@ -7,7 +7,6 @@
 //
 
 #import "LHYViewController.h"
-#import <LHYADTool/LHYADTool.h>
 
 @interface LHYViewController ()
 
@@ -29,15 +28,15 @@
 }
 
 - (void)ButtonClick {
-    [[LHYBURewardedManager shared] showBURewardedWithViewController:self reward:^(RewardedState rewardState) {
-        if (rewardState == Rewarded_request_error) {
-            NSLog(@"激励广告没有准备好");
-        }else if (rewardState == Rewarded_get_reward) {
-            NSLog(@"可以获取奖励");
-        }else {
-            NSLog(@"不能获取奖励");
-        }
-    }];
+//    [[LHYBURewardedManager shared] showBURewardedWithViewController:self reward:^(RewardedState rewardState) {
+//        if (rewardState == Rewarded_request_error) {
+//            NSLog(@"激励广告没有准备好");
+//        }else if (rewardState == Rewarded_get_reward) {
+//            NSLog(@"可以获取奖励");
+//        }else {
+//            NSLog(@"不能获取奖励");
+//        }
+//    }];
 }
 
 - (void)didReceiveMemoryWarning

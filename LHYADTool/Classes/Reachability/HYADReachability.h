@@ -47,13 +47,13 @@ typedef NS_ENUM(NSInteger, NetworkStatus) {
     ReachableViaWWAN = 1
 };
 
-@class LHYReachability;
+@class HYADReachability;
 
-typedef void (^NetworkReachable)(LHYReachability * reachability);
-typedef void (^NetworkUnreachable)(LHYReachability * reachability);
+typedef void (^NetworkReachable)(HYADReachability * reachability);
+typedef void (^NetworkUnreachable)(HYADReachability * reachability);
 
 
-@interface LHYReachability : NSObject
+@interface HYADReachability : NSObject
 
 @property (nonatomic, copy) NetworkReachable    reachableBlock;
 @property (nonatomic, copy) NetworkUnreachable  unreachableBlock;
@@ -61,15 +61,15 @@ typedef void (^NetworkUnreachable)(LHYReachability * reachability);
 @property (nonatomic, assign) BOOL reachableOnWWAN;
 
 
-+(LHYReachability*)reachabilityWithHostname:(NSString*)hostname;
++(HYADReachability*)reachabilityWithHostname:(NSString*)hostname;
 // This is identical to the function above, but is here to maintain
 //compatibility with Apples original code. (see .m)
-+(LHYReachability*)reachabilityWithHostName:(NSString*)hostname;
-+(LHYReachability*)reachabilityForInternetConnection;
-+(LHYReachability*)reachabilityWithAddress:(void *)hostAddress;
-+(LHYReachability*)reachabilityForLocalWiFi;
++(HYADReachability*)reachabilityWithHostName:(NSString*)hostname;
++(HYADReachability*)reachabilityForInternetConnection;
++(HYADReachability*)reachabilityWithAddress:(void *)hostAddress;
++(HYADReachability*)reachabilityForLocalWiFi;
 
--(LHYReachability *)initWithReachabilityRef:(SCNetworkReachabilityRef)ref;
+-(HYADReachability *)initWithReachabilityRef:(SCNetworkReachabilityRef)ref;
 
 -(BOOL)startNotifier;
 -(void)stopNotifier;

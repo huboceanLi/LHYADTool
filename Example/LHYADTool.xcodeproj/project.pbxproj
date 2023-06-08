@@ -58,15 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		67571F7484101E836B877A82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		67571F7484101E836B877A82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7020C8B5545D7F623B402484 /* Pods-LHYADTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHYADTool_Example.release.xcconfig"; path = "Target Support Files/Pods-LHYADTool_Example/Pods-LHYADTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BD0A010840C336157BC67B9 /* Pods_LHYADTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHYADTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E833BB58E4D172B6BE9780 /* Pods_LHYADTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHYADTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BB0C77E6BD0702EB1BBCFE /* Pods-LHYADTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHYADTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-LHYADTool_Tests/Pods-LHYADTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A4E57E4EBE41A3982D7DB330 /* LHYADTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LHYADTool.podspec; path = ../LHYADTool.podspec; sourceTree = "<group>"; };
-		C9773AAF22447A82FC67F478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A4E57E4EBE41A3982D7DB330 /* LHYADTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LHYADTool.podspec; path = ../LHYADTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9773AAF22447A82FC67F478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				256DB6C1AC16337328CD0B8C /* Pods-LHYADTool_Tests.debug.xcconfig */,
 				98BB0C77E6BD0702EB1BBCFE /* Pods-LHYADTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -257,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

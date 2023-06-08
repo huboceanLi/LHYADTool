@@ -7,7 +7,7 @@
 //
 
 #import "LHYAppDelegate.h"
-#import <LHYADTool/LHYADTool.h>
+#import <HYUKADSDK/HYUKInitTool.h>
 #import "LHYViewController.h"
 
 @implementation LHYAppDelegate
@@ -15,20 +15,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    LHYADConfig *config = [LHYADConfig new];
-    config.buAppId = @"5000546";
-    config.buLinkId = @"887383142";
-    config.buRewardedId = @"945494747";
-    config.isRequstRewarded = YES;
-    config.linkImage = [UIImage imageNamed:@"linkImage"];
-    config.linkRect = CGRectMake(0, 100, 300, 400);
-    
+    self.window.backgroundColor = UIColor.whiteColor;
+
     __weak typeof(self) weakSelf = self;
-    [LHYADInitTool initTool:config window:self.window enter:^(BOOL pt) {
-        NSLog(@"我来了");
-        LHYViewController * loginVC = [[LHYViewController alloc] init];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
-        weakSelf.window.rootViewController = nav;
+    [HYUKInitTool initTool:[UIImage imageNamed:@"引导页"] linkRect:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) window:self.window enter:^(BOOL pt) {
+        if (!pt) {
+            HYViewController * loginVC = [[HYViewController alloc] init];
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+            weakSelf.window.rootViewController = nav;
+            [weakSelf.window makeKeyAndVisible];
+        }
     }];
     
     return YES;
