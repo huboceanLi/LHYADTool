@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHYADTool'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of LHYADTool.'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,14 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/huboceanLi/LHYADTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'LHYADTool/Classes/**/*'
+  s.resources = "LHYADTool/Resources/*"
+
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.static_framework = true
+  s.requires_arc = true
 
   # s.resource_bundles = {
   #   'LHYADTool' => ['LHYADTool/Assets/*.png']
@@ -41,10 +44,10 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-#  s.dependency "YYKit"
-#  s.dependency "UMCommon"
-#  s.dependency "SVProgressHUD"
-  s.dependency "QMUIKit"
-  s.dependency "Ads-CN", '~> 4.5.1.6'
+  
+  s.dependency "Ads-CN"
+  s.dependency "AFNetworking"
+  s.dependency "UMCommon"
+  s.dependency "YYModel"
 
 end
