@@ -7,7 +7,7 @@
 //
 
 #import "LHYAppDelegate.h"
-#import <HYUKADSDK/HYUKInitTool.h>
+#import <LHYADTool/HYUKInitTool.h>
 #import "LHYViewController.h"
 
 @implementation LHYAppDelegate
@@ -20,7 +20,7 @@
     __weak typeof(self) weakSelf = self;
     [HYUKInitTool initTool:[UIImage imageNamed:@"引导页"] linkRect:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) window:self.window enter:^(BOOL pt) {
         if (!pt) {
-            HYViewController * loginVC = [[HYViewController alloc] init];
+            LHYViewController * loginVC = [[LHYViewController alloc] init];
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
             weakSelf.window.rootViewController = nav;
             [weakSelf.window makeKeyAndVisible];
