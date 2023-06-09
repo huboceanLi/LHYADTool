@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LHYADTool'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of LHYADTool.'
 
 # This description is used to generate tags and improve search results.
@@ -48,6 +48,6 @@ Pod::Spec.new do |s|
   s.dependency "Ads-CN"
   s.dependency "AFNetworking"
   s.dependency "UMCommon"
-  s.dependency "YYModel"
+  s.dependency "YYKit"
 
 end
