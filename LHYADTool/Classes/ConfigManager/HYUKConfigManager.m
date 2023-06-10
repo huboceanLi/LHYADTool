@@ -6,7 +6,7 @@
 //
 
 #import "HYUKConfigManager.h"
-#import <YYModel/YYModel.h>
+#import <YYKit/YYKit.h>
 
 static HYUKConfigManager * configManager = nil;
 
@@ -25,7 +25,8 @@ static HYUKConfigManager * configManager = nil;
 {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"configad" ofType:@"json"];
     NSString *d = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-    self.ADIDModel = [HYUkADIDModel yy_modelWithJSON:d];
+    
+    self.ADIDModel = [HYUkADIDModel modelWithJSON:d];
 }
 
 @end

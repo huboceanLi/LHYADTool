@@ -207,6 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				077116381317065E75E7618D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,6 +295,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		077116381317065E75E7618D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LHYADTool_Example/Pods-LHYADTool_Example-resources.sh",
+				"${PODS_ROOT}/../../LHYADTool/Resources/configad.json",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/configad.json",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LHYADTool_Example/Pods-LHYADTool_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		20A7E8C815C99B2D2B6B4E93 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

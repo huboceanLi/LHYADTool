@@ -7,104 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		077E6B191951E47D259728FE18346292 /* LHYBUAdLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 889397826F9E2F40137C859E09F12EE6 /* LHYBUAdLinkManager.m */; };
-		1AFD459BB0E63A8AF5B63A12D9806422 /* LHYADTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 510CCD4BB5248D67A4AD5A5728DEA0B0 /* LHYADTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0386F9DD7AA223C7A24850860385C66C /* HYVideoVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F659FCAC4D47C2F67B065C845ED98D6B /* HYVideoVersionModel.m */; };
+		08971E2FAFB2376F36BA7B7EA756A467 /* HYUKConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97037E3992A0F074C57671F378B5687B /* HYUKConfigManager.m */; };
+		0EAD1F5121E7110977DD45D2632C4D94 /* HYUkADIDModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A5F3AE82F5E6C8CF9C20BD5B73F07D /* HYUkADIDModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25831760D2E2ACE11136387E2AD3C8C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		26ADE6A4A21E243CFCD7DBB1392BFB7D /* HYADReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C9D4F52BAB619C902B995AF56D742 /* HYADReachability.m */; };
+		2A646F7A381626D087B9CF75F445CBA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2E5F06531188A0149A1616B93955A824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		45570E6F2A70B93AF3DF1334E5938C73 /* LHYADConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B369659A2F2C17A55E29929A6C0236 /* LHYADConfig.m */; };
-		4A5AB7BE9C7DAFD2A818533443BA2DA4 /* LHYLinkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2670525973E6EFDEED9E31C0781169 /* LHYLinkViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52FCFBDBB3D95C0C2363C562BFDE42B9 /* LHYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D03CBFFD38848E30C78CBAE0B414F64 /* LHYReachability.m */; };
-		533EFDB38C7CF50E2236383228875D69 /* LHYADTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA86E3803962045B92C99D492E99568 /* LHYADTool-dummy.m */; };
-		5380ED01F177950248B06CD050CA9EA9 /* LHYConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E427D25CF75A2536191A4F48A72D52FB /* LHYConfigManager.m */; };
-		5970497956954E1D8A7CD6185C7EB06A /* LHYBUAdLinkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 965D6FDC52B07541AFCA2AEF318DA8B5 /* LHYBUAdLinkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62552FB925ABFB03DA617C66F4CCB700 /* LHYLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F23342E4DB913195FE192885D3EEF3 /* LHYLinkViewController.m */; };
-		726C25F806B27379833EE26BCEE3E7C7 /* LHYBURewardedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A07332C2798B8F0C3D1326AF50CD3E /* LHYBURewardedManager.m */; };
-		737D353BB9953B138B48B46397CBC079 /* LHYBURewardedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 679348D6C2EAEC21C28F0E48C31ED09D /* LHYBURewardedManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7766D09C56B2DBE1B74E8E768B53BAF0 /* Pods-LHYADTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF32DC49E56BB7C031C23F67A0B5D8E /* Pods-LHYADTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2CA1F51A63FD6D5F68BC45F2D34BEBB /* LHYADInitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D26DAA48DA88FA981B8F76E613623B /* LHYADInitTool.m */; };
-		A3465FB87A0DBAAE3D5CCDA2BA40E138 /* LHYConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 501582F866A0FEE17B9694866E53AAD0 /* LHYConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B490EEB240EAA18DE2C6D6042A4B935F /* LHYReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F30FDBF1F380C39F12FE8039EBD66C /* LHYReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B841B26EC455E73E89C222D06E27B756 /* Pods-LHYADTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E77EF40F085FB78869592DD8EFF6FE /* Pods-LHYADTool_Example-dummy.m */; };
-		BC1CF25A6A697FE95225F05A30706DC1 /* Pods-LHYADTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0309A08367B8A599123039C84397DD4 /* Pods-LHYADTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A6571D40AC7072BB47DF5D6017A312 /* Pods-LHYADTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC024425DB0F6CA74A7C2E8A8E7BE7A /* Pods-LHYADTool_Tests-dummy.m */; };
-		C9B5528AEB57CAAA3C496344F076E4C8 /* LHYADConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C788E94DAB628E0B7EEB28BA4C4D8B2D /* LHYADConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1FE293D6D9BEB9A6360D27DCFA8A265 /* LHYADTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFDE48B6AB780BE4A299253925A954F /* LHYADTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB664F268CBC13A5007E9E028EED3608 /* LHYADInitTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D63AF739965D57A8D7F91650315AA17B /* LHYADInitTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA47814917178CC40D1DE66FE130175F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30FF3BAB5F174AE3F62D69BDCF491F2D /* HYUKInitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3AE5810A3EF26DBA5F8451B16B68E /* HYUKInitTool.m */; };
+		39E92954BC285815CE9ABDC2077C0F66 /* HYUKConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F45C90E72D61FCB759E5411937E38688 /* HYUKConfigManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D4359001A88E6268769338EB6F0B00 /* UKBuSplashManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4599E7D09B5E24C8764BAE509751C1D9 /* UKBuSplashManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		491BB2158BA0BAF86129EC9ACE97A7CA /* HYUkADIDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F72586E3FF18BCA6EE756CB6932F82C /* HYUkADIDModel.m */; };
+		49DBA4C7261A3773C3DB6B368A693016 /* HYUKADHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 069344D66A62583BD660642C20649ABD /* HYUKADHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54078487A18E61823E67B66E4606000E /* HYUKBaseRequset.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F106CCB0814F4A2A62989148B6623D /* HYUKBaseRequset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B25BDBC67BE1BCCA4DF307D1263B5CD /* UKNativeExpressFullscreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14515D44A4EF3F9DD71D3D0FFA00727C /* UKNativeExpressFullscreenManager.m */; };
+		64F4C83FBCEB189C5E8D4F2035593AA4 /* HYUkRequestWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EBC1826B7E96C9803BD66CBCAE952 /* HYUkRequestWorking.m */; };
+		6CC2C9F839EAB93B283CB70410003B20 /* HYUkRequestWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D6725E40A540AAD8877E2A0ED6305F /* HYUkRequestWorking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC64A967BE9196264CCB62267FEC40C /* LHYADTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 158428C2C4D5275885CE5D00CA5A6B3E /* LHYADTool-dummy.m */; };
+		742893028959551D2A00E4B2AC79C6DA /* HYExpressAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7233B6A99BEA6872390A8BA8B9A44B3D /* HYExpressAdView.m */; };
+		7766D09C56B2DBE1B74E8E768B53BAF0 /* Pods-LHYADTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9DBDBA7FAD921FC0CCABB201D21194F /* Pods-LHYADTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F1D47BF2BD4D0665A45FF81CA394AC /* HYADReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B210D571D1CD2C67B7A9B78A6BEA4D3 /* HYADReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8135FF710FD8CFF3720FF33B3C7FCBB9 /* HYExpressAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 664A36E7324AD9F687637B8F1983744A /* HYExpressAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869D61612DA65DEDB4B813058F2B4821 /* HYUKBaseRequset.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5882A87A0111CD198D0F39D00F4D00 /* HYUKBaseRequset.m */; };
+		894BB82A0A6701F2B1811741927D6863 /* UKBuSplashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB995EE4DE0BC0A41AE68D44F25570B /* UKBuSplashManager.m */; };
+		8D89C590986652E3722FDCE50C910796 /* UKExpressAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7882050C411975128071FBA9667D7441 /* UKExpressAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942135D46FA9C992AC73B22DD65334F0 /* UIButton+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A32B0925D8518E6604F4F7D38B635 /* UIButton+Event.m */; };
+		9A67391705F0344F306BC25E85F16DA0 /* HYUKLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479627F84048052EB103061F382B4169 /* HYUKLinkViewController.m */; };
+		A09F1B4825AFD1FA7ABB4D0D03094504 /* UKNativeExpressFullscreenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E0192A4967AA2411E6391047B788D83F /* UKNativeExpressFullscreenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE914695683A24C4DBE3E96982FA3F4 /* UIButton+Event.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9F50EF3201ABF2534FA89D64497676 /* UIButton+Event.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF98C804FAE2A5AC2A8462126C00BA35 /* LHYADTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CED5EE734BBEA8856A817FFA65B4772 /* LHYADTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41A5785988938EC7EC30D3A410CE3F0 /* HYVideoVersionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CE6F1BC4866D147F44BF4FFD00AA64 /* HYVideoVersionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B841B26EC455E73E89C222D06E27B756 /* Pods-LHYADTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E116ED03E6F65C4CC4A17D3BEB6C51 /* Pods-LHYADTool_Example-dummy.m */; };
+		BC1CF25A6A697FE95225F05A30706DC1 /* Pods-LHYADTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C14341C97F5D30006198073AB646FF01 /* Pods-LHYADTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC92EF2D1BDDBFBF0A9D1F1203C44BD6 /* HYUKInitTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C072F1E2BD40247FCEB1A06CFD030F /* HYUKInitTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A6571D40AC7072BB47DF5D6017A312 /* Pods-LHYADTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236D4E511E6089FC84C338C97E716378 /* Pods-LHYADTool_Tests-dummy.m */; };
+		E5B2EF066D7309999CF5A45480A0226E /* HYUKLinkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD6D66E7976364FE4F37D67363F2CD1 /* HYUKLinkViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E868F353EA21EC3D304485FBB24F6BDE /* UKExpressAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFFD7D34B0A63D72C195615F12A8F64 /* UKExpressAdManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12F4E9440EA3636590C2AF1AE6C9060D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 929F7AB9BBADDB67528FC2F39480E4CB;
-			remoteInfo = LHYADTool;
-		};
-		985ABEC7E61D076D5848EEE9C10948A6 /* PBXContainerItemProxy */ = {
+		69E7D75823140B18BB0655599987FB0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF6E5CB9678601E7461789929209998B;
 			remoteInfo = "Pods-LHYADTool_Example";
 		};
+		A6A3A746C4D1AB1A0D413BECF264826D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929F7AB9BBADDB67528FC2F39480E4CB;
+			remoteInfo = LHYADTool;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F30FDBF1F380C39F12FE8039EBD66C /* LHYReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYReachability.h; sourceTree = "<group>"; };
-		06341435F265A349632C5CA84E0CBF96 /* Pods-LHYADTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHYADTool_Example.modulemap"; sourceTree = "<group>"; };
-		0E0C9750EFDFBCA15797E6F4E46D49EF /* Pods-LHYADTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		23730A9D1FA346629C37366EDA79F624 /* LHYADTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LHYADTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		25D26DAA48DA88FA981B8F76E613623B /* LHYADInitTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYADInitTool.m; sourceTree = "<group>"; };
-		2DF32DC49E56BB7C031C23F67A0B5D8E /* Pods-LHYADTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHYADTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		069344D66A62583BD660642C20649ABD /* HYUKADHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYUKADHeader.h; path = LHYADTool/Classes/HYUKADHeader.h; sourceTree = "<group>"; };
+		06E116ED03E6F65C4CC4A17D3BEB6C51 /* Pods-LHYADTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHYADTool_Example-dummy.m"; sourceTree = "<group>"; };
+		0A442C065005AC89BC41FF537696B564 /* Pods-LHYADTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		137C9D4F52BAB619C902B995AF56D742 /* HYADReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYADReachability.m; sourceTree = "<group>"; };
+		14515D44A4EF3F9DD71D3D0FFA00727C /* UKNativeExpressFullscreenManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UKNativeExpressFullscreenManager.m; sourceTree = "<group>"; };
+		158428C2C4D5275885CE5D00CA5A6B3E /* LHYADTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LHYADTool-dummy.m"; sourceTree = "<group>"; };
+		15F106CCB0814F4A2A62989148B6623D /* HYUKBaseRequset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUKBaseRequset.h; sourceTree = "<group>"; };
+		1AA3AE5810A3EF26DBA5F8451B16B68E /* HYUKInitTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYUKInitTool.m; sourceTree = "<group>"; };
+		1B210D571D1CD2C67B7A9B78A6BEA4D3 /* HYADReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYADReachability.h; sourceTree = "<group>"; };
+		1F240E853E4C7B40C7DD316AED91951C /* LHYADTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHYADTool-prefix.pch"; sourceTree = "<group>"; };
+		21B941CE8EB8CF0E627AD0C659442DD4 /* Pods-LHYADTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Example-Info.plist"; sourceTree = "<group>"; };
+		236D4E511E6089FC84C338C97E716378 /* Pods-LHYADTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHYADTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		26082D0D2B75A8AC521248E283D275E4 /* Pods-LHYADTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHYADTool_Example-resources.sh"; sourceTree = "<group>"; };
 		31BB840478980A6BF28A2F67338A3184 /* Pods-LHYADTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LHYADTool_Tests"; path = Pods_LHYADTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		321DBBD98368283D3F8AF6537B7C74FA /* Pods-LHYADTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHYADTool_Tests.modulemap"; sourceTree = "<group>"; };
-		3D03CBFFD38848E30C78CBAE0B414F64 /* LHYReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYReachability.m; sourceTree = "<group>"; };
-		417F589C57F67AD129F18839B2BE5E37 /* Pods-LHYADTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49B369659A2F2C17A55E29929A6C0236 /* LHYADConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYADConfig.m; sourceTree = "<group>"; };
-		501582F866A0FEE17B9694866E53AAD0 /* LHYConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYConfigManager.h; sourceTree = "<group>"; };
-		510CCD4BB5248D67A4AD5A5728DEA0B0 /* LHYADTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHYADTool-umbrella.h"; sourceTree = "<group>"; };
+		3E5882A87A0111CD198D0F39D00F4D00 /* HYUKBaseRequset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYUKBaseRequset.m; sourceTree = "<group>"; };
+		3F72586E3FF18BCA6EE756CB6932F82C /* HYUkADIDModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYUkADIDModel.m; sourceTree = "<group>"; };
+		4599E7D09B5E24C8764BAE509751C1D9 /* UKBuSplashManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UKBuSplashManager.h; sourceTree = "<group>"; };
+		45D0DC6D67CA1F2718273D204198E2C7 /* LHYADTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LHYADTool.modulemap; sourceTree = "<group>"; };
+		479627F84048052EB103061F382B4169 /* HYUKLinkViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYUKLinkViewController.m; sourceTree = "<group>"; };
+		49E73823C353B4EBC505DC95C2A1A020 /* Pods-LHYADTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FFFD7D34B0A63D72C195615F12A8F64 /* UKExpressAdManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UKExpressAdManager.m; sourceTree = "<group>"; };
 		550A0550854B2EA69643C8D781B76CC1 /* LHYADTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LHYADTool; path = LHYADTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58E6AED7E007162615C0980E178E8B3B /* LHYADTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHYADTool.release.xcconfig; sourceTree = "<group>"; };
-		679348D6C2EAEC21C28F0E48C31ED09D /* LHYBURewardedManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYBURewardedManager.h; sourceTree = "<group>"; };
-		6F2670525973E6EFDEED9E31C0781169 /* LHYLinkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYLinkViewController.h; sourceTree = "<group>"; };
-		6FDF6BF73860B3435898B44AF4FCB159 /* LHYADTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHYADTool.debug.xcconfig; sourceTree = "<group>"; };
+		5A38E36B6F7D94BCF7A2B42ED0AC8941 /* Pods-LHYADTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CED5EE734BBEA8856A817FFA65B4772 /* LHYADTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHYADTool-umbrella.h"; sourceTree = "<group>"; };
+		62CE6F1BC4866D147F44BF4FFD00AA64 /* HYVideoVersionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYVideoVersionModel.h; sourceTree = "<group>"; };
+		664A36E7324AD9F687637B8F1983744A /* HYExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYExpressAdView.h; sourceTree = "<group>"; };
+		669B0D24CAAECEDC88D3BC1E1D1F9446 /* LHYADTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LHYADTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A1EBC1826B7E96C9803BD66CBCAE952 /* HYUkRequestWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYUkRequestWorking.m; sourceTree = "<group>"; };
+		6F9F50EF3201ABF2534FA89D64497676 /* UIButton+Event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Event.h"; sourceTree = "<group>"; };
+		715768F4303B4B6D8A53F3D0EED27FBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7233B6A99BEA6872390A8BA8B9A44B3D /* HYExpressAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYExpressAdView.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82A07332C2798B8F0C3D1326AF50CD3E /* LHYBURewardedManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYBURewardedManager.m; sourceTree = "<group>"; };
-		858EB8C99A322EB609511E8A5AC0AFE7 /* Pods-LHYADTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		889397826F9E2F40137C859E09F12EE6 /* LHYBUAdLinkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYBUAdLinkManager.m; sourceTree = "<group>"; };
-		8BC024425DB0F6CA74A7C2E8A8E7BE7A /* Pods-LHYADTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHYADTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		9494AF6E33CE5F31B116DBB3437F27AB /* LHYADTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LHYADTool-Info.plist"; sourceTree = "<group>"; };
-		9639C7A59D60675F1AAEF8527323046A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		965D6FDC52B07541AFCA2AEF318DA8B5 /* LHYBUAdLinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYBUAdLinkManager.h; sourceTree = "<group>"; };
+		7522ABA86AC33EC7805EBD8CA0AE9C4D /* LHYADTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHYADTool.debug.xcconfig; sourceTree = "<group>"; };
+		7882050C411975128071FBA9667D7441 /* UKExpressAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UKExpressAdManager.h; sourceTree = "<group>"; };
+		97037E3992A0F074C57671F378B5687B /* HYUKConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYUKConfigManager.m; sourceTree = "<group>"; };
+		978CDD16601D52635CEBAC625C0496A1 /* LHYADTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LHYADTool-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAF08FAE0FB5C7A11413A90472472FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A67175E36B981657D5BB914752C82515 /* LHYADTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LHYADTool.modulemap; sourceTree = "<group>"; };
-		AAA86E3803962045B92C99D492E99568 /* LHYADTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LHYADTool-dummy.m"; sourceTree = "<group>"; };
-		AF1E82782BE02B9BAF3CECE81A228C80 /* LHYADTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHYADTool-prefix.pch"; sourceTree = "<group>"; };
-		B16D67A009A30BE0345275C1DCBE41B7 /* Pods-LHYADTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Example-Info.plist"; sourceTree = "<group>"; };
-		B1E2B31BB08AD2B2BE89249A652D2197 /* Pods-LHYADTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B425D1211AB2887200F916BA0591A556 /* Pods-LHYADTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Tests-Info.plist"; sourceTree = "<group>"; };
-		C448F21DEF6F30FAC3A0E6E679609D7E /* Pods-LHYADTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHYADTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C788E94DAB628E0B7EEB28BA4C4D8B2D /* LHYADConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYADConfig.h; sourceTree = "<group>"; };
-		D0309A08367B8A599123039C84397DD4 /* Pods-LHYADTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHYADTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D63AF739965D57A8D7F91650315AA17B /* LHYADInitTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LHYADInitTool.h; sourceTree = "<group>"; };
-		D6F23342E4DB913195FE192885D3EEF3 /* LHYLinkViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYLinkViewController.m; sourceTree = "<group>"; };
-		E0AD86BF9610F81B10C37C035373079A /* Pods-LHYADTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E427D25CF75A2536191A4F48A72D52FB /* LHYConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LHYConfigManager.m; sourceTree = "<group>"; };
-		E62B8EFC797B7E438AB022105DAA60FE /* Pods-LHYADTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EAE8E1DF7985C9E3277B976E495C0CF2 /* Pods-LHYADTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHYADTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1D4023E874AFD81208E645100EB6457 /* LHYADTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHYADTool.release.xcconfig; sourceTree = "<group>"; };
+		A2CB7AEA7E4C26196C819000663078D5 /* Pods-LHYADTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHYADTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A464719A01C3E53A109782134317F3AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A976132FFCF895F47FCA099E2BFB7D4E /* Pods-LHYADTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		B2C072F1E2BD40247FCEB1A06CFD030F /* HYUKInitTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUKInitTool.h; sourceTree = "<group>"; };
+		BBD6D66E7976364FE4F37D67363F2CD1 /* HYUKLinkViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUKLinkViewController.h; sourceTree = "<group>"; };
+		BC77DEA50BF7A97365300B6A2F6B73D9 /* configad.json */ = {isa = PBXFileReference; includeInIndex = 1; name = configad.json; path = LHYADTool/Resources/configad.json; sourceTree = "<group>"; };
+		BCCC2964209EF07910507E5F7569D720 /* Pods-LHYADTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHYADTool_Tests.modulemap"; sourceTree = "<group>"; };
+		C14341C97F5D30006198073AB646FF01 /* Pods-LHYADTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHYADTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C9DBDBA7FAD921FC0CCABB201D21194F /* Pods-LHYADTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHYADTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		CDE452C4CAF572003732E142ECBDCDD1 /* Pods-LHYADTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHYADTool_Example.modulemap"; sourceTree = "<group>"; };
+		D0DF531F5184027B1C051B463CCBCA27 /* Pods-LHYADTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4A5F3AE82F5E6C8CF9C20BD5B73F07D /* HYUkADIDModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUkADIDModel.h; sourceTree = "<group>"; };
+		D7672DBE715CFB0CC3C77FE183B7890F /* Pods-LHYADTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHYADTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAB995EE4DE0BC0A41AE68D44F25570B /* UKBuSplashManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UKBuSplashManager.m; sourceTree = "<group>"; };
+		E0192A4967AA2411E6391047B788D83F /* UKNativeExpressFullscreenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UKNativeExpressFullscreenManager.h; sourceTree = "<group>"; };
+		E9D6725E40A540AAD8877E2A0ED6305F /* HYUkRequestWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUkRequestWorking.h; sourceTree = "<group>"; };
 		EDE68669D6A84BF651206695372786CF /* Pods-LHYADTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LHYADTool_Example"; path = Pods_LHYADTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E77EF40F085FB78869592DD8EFF6FE /* Pods-LHYADTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHYADTool_Example-dummy.m"; sourceTree = "<group>"; };
-		FEFDE48B6AB780BE4A299253925A954F /* LHYADTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LHYADTool.h; path = LHYADTool/Classes/LHYADTool.h; sourceTree = "<group>"; };
+		F3B5A92E5242DC958BB15251872A3DCB /* Pods-LHYADTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHYADTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F45C90E72D61FCB759E5411937E38688 /* HYUKConfigManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYUKConfigManager.h; sourceTree = "<group>"; };
+		F659FCAC4D47C2F67B065C845ED98D6B /* HYVideoVersionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYVideoVersionModel.m; sourceTree = "<group>"; };
+		F8D1C6AD0DFE68EC48F004A80EADD3DA /* Pods-LHYADTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHYADTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FF1A32B0925D8518E6604F4F7D38B635 /* UIButton+Event.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Event.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A081D26455CEF42238056DC28B62D11 /* Frameworks */ = {
+		292AED4817B11D9AD4DE257EEF1770ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA47814917178CC40D1DE66FE130175F /* Foundation.framework in Frameworks */,
+				2A646F7A381626D087B9CF75F445CBA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,30 +153,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		087B3E336FD360E8963D21CA45B16FE9 /* Pods-LHYADTool_Tests */ = {
+		0962E4477A2272B65AE8A2D7C2E83739 /* LHYADTool */ = {
 			isa = PBXGroup;
 			children = (
-				321DBBD98368283D3F8AF6537B7C74FA /* Pods-LHYADTool_Tests.modulemap */,
-				C448F21DEF6F30FAC3A0E6E679609D7E /* Pods-LHYADTool_Tests-acknowledgements.markdown */,
-				B1E2B31BB08AD2B2BE89249A652D2197 /* Pods-LHYADTool_Tests-acknowledgements.plist */,
-				8BC024425DB0F6CA74A7C2E8A8E7BE7A /* Pods-LHYADTool_Tests-dummy.m */,
-				B425D1211AB2887200F916BA0591A556 /* Pods-LHYADTool_Tests-Info.plist */,
-				D0309A08367B8A599123039C84397DD4 /* Pods-LHYADTool_Tests-umbrella.h */,
-				858EB8C99A322EB609511E8A5AC0AFE7 /* Pods-LHYADTool_Tests.debug.xcconfig */,
-				417F589C57F67AD129F18839B2BE5E37 /* Pods-LHYADTool_Tests.release.xcconfig */,
+				BC77DEA50BF7A97365300B6A2F6B73D9 /* configad.json */,
+				069344D66A62583BD660642C20649ABD /* HYUKADHeader.h */,
+				D2EDB71C3C844E6757A5F11CA40707DC /* Api */,
+				EF3F9AB69C66276C6F2E09402AB1B386 /* ConfigManager */,
+				0A053C00A885E7B080E66986B53186E2 /* link */,
+				B69688A0A08920C6F12FD27D72859CC5 /* manager */,
+				827FFA33DBF04C58D14C86690DD88E38 /* Pod */,
+				98AA71EC828AD2DC5CE19FD1A6DBEAA1 /* Reachability */,
+				B0ACA6E44E75B2C3BE51F1F965B8B6C4 /* Support Files */,
 			);
-			name = "Pods-LHYADTool_Tests";
-			path = "Target Support Files/Pods-LHYADTool_Tests";
+			name = LHYADTool;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		12551132967727C2931AF8854DC4827D /* Pod */ = {
+		0A053C00A885E7B080E66986B53186E2 /* link */ = {
 			isa = PBXGroup;
 			children = (
-				23730A9D1FA346629C37366EDA79F624 /* LHYADTool.podspec */,
-				9639C7A59D60675F1AAEF8527323046A /* LICENSE */,
-				9EAF08FAE0FB5C7A11413A90472472FD /* README.md */,
+				BBD6D66E7976364FE4F37D67363F2CD1 /* HYUKLinkViewController.h */,
+				479627F84048052EB103061F382B4169 /* HYUKLinkViewController.m */,
 			);
-			name = Pod;
+			name = link;
+			path = LHYADTool/Classes/link;
+			sourceTree = "<group>";
+		};
+		0B8F8791C398DEEB552CB5B0283D43CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0962E4477A2272B65AE8A2D7C2E83739 /* LHYADTool */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3B47ABC4D3EBC24A4821476275B3225B /* Products */ = {
@@ -163,13 +198,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		416F77E27C908894EA861FBF8FACF57C /* Targets Support Files */ = {
+		4C2290D9B8A5DA9552516BA365D4FABF /* Pods-LHYADTool_Example */ = {
 			isa = PBXGroup;
 			children = (
-				C65487C363CF16ED297B6DD3D25CC5E5 /* Pods-LHYADTool_Example */,
-				087B3E336FD360E8963D21CA45B16FE9 /* Pods-LHYADTool_Tests */,
+				CDE452C4CAF572003732E142ECBDCDD1 /* Pods-LHYADTool_Example.modulemap */,
+				F3B5A92E5242DC958BB15251872A3DCB /* Pods-LHYADTool_Example-acknowledgements.markdown */,
+				D0DF531F5184027B1C051B463CCBCA27 /* Pods-LHYADTool_Example-acknowledgements.plist */,
+				06E116ED03E6F65C4CC4A17D3BEB6C51 /* Pods-LHYADTool_Example-dummy.m */,
+				21B941CE8EB8CF0E627AD0C659442DD4 /* Pods-LHYADTool_Example-Info.plist */,
+				26082D0D2B75A8AC521248E283D275E4 /* Pods-LHYADTool_Example-resources.sh */,
+				C9DBDBA7FAD921FC0CCABB201D21194F /* Pods-LHYADTool_Example-umbrella.h */,
+				0A442C065005AC89BC41FF537696B564 /* Pods-LHYADTool_Example.debug.xcconfig */,
+				F8D1C6AD0DFE68EC48F004A80EADD3DA /* Pods-LHYADTool_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-LHYADTool_Example";
+			path = "Target Support Files/Pods-LHYADTool_Example";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -180,74 +223,102 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7CA44BBB74DD428AC0EA809038CB7DF0 /* Config */ = {
+		7E798AF69A04218482AEA5B93C494630 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C788E94DAB628E0B7EEB28BA4C4D8B2D /* LHYADConfig.h */,
-				49B369659A2F2C17A55E29929A6C0236 /* LHYADConfig.m */,
-				D63AF739965D57A8D7F91650315AA17B /* LHYADInitTool.h */,
-				25D26DAA48DA88FA981B8F76E613623B /* LHYADInitTool.m */,
-				501582F866A0FEE17B9694866E53AAD0 /* LHYConfigManager.h */,
-				E427D25CF75A2536191A4F48A72D52FB /* LHYConfigManager.m */,
+				4C2290D9B8A5DA9552516BA365D4FABF /* Pods-LHYADTool_Example */,
+				841187CB1C7FE7A162654FD8B6F41008 /* Pods-LHYADTool_Tests */,
 			);
-			name = Config;
-			path = LHYADTool/Classes/Config;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ADAD55CF9015449CA70A1183572595B3 /* Support Files */ = {
+		827FFA33DBF04C58D14C86690DD88E38 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A67175E36B981657D5BB914752C82515 /* LHYADTool.modulemap */,
-				AAA86E3803962045B92C99D492E99568 /* LHYADTool-dummy.m */,
-				9494AF6E33CE5F31B116DBB3437F27AB /* LHYADTool-Info.plist */,
-				AF1E82782BE02B9BAF3CECE81A228C80 /* LHYADTool-prefix.pch */,
-				510CCD4BB5248D67A4AD5A5728DEA0B0 /* LHYADTool-umbrella.h */,
-				6FDF6BF73860B3435898B44AF4FCB159 /* LHYADTool.debug.xcconfig */,
-				58E6AED7E007162615C0980E178E8B3B /* LHYADTool.release.xcconfig */,
+				669B0D24CAAECEDC88D3BC1E1D1F9446 /* LHYADTool.podspec */,
+				A464719A01C3E53A109782134317F3AC /* LICENSE */,
+				715768F4303B4B6D8A53F3D0EED27FBF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		841187CB1C7FE7A162654FD8B6F41008 /* Pods-LHYADTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCC2964209EF07910507E5F7569D720 /* Pods-LHYADTool_Tests.modulemap */,
+				A2CB7AEA7E4C26196C819000663078D5 /* Pods-LHYADTool_Tests-acknowledgements.markdown */,
+				D7672DBE715CFB0CC3C77FE183B7890F /* Pods-LHYADTool_Tests-acknowledgements.plist */,
+				236D4E511E6089FC84C338C97E716378 /* Pods-LHYADTool_Tests-dummy.m */,
+				A976132FFCF895F47FCA099E2BFB7D4E /* Pods-LHYADTool_Tests-Info.plist */,
+				C14341C97F5D30006198073AB646FF01 /* Pods-LHYADTool_Tests-umbrella.h */,
+				49E73823C353B4EBC505DC95C2A1A020 /* Pods-LHYADTool_Tests.debug.xcconfig */,
+				5A38E36B6F7D94BCF7A2B42ED0AC8941 /* Pods-LHYADTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-LHYADTool_Tests";
+			path = "Target Support Files/Pods-LHYADTool_Tests";
+			sourceTree = "<group>";
+		};
+		98AA71EC828AD2DC5CE19FD1A6DBEAA1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1B210D571D1CD2C67B7A9B78A6BEA4D3 /* HYADReachability.h */,
+				137C9D4F52BAB619C902B995AF56D742 /* HYADReachability.m */,
+			);
+			name = Reachability;
+			path = LHYADTool/Classes/Reachability;
+			sourceTree = "<group>";
+		};
+		B0ACA6E44E75B2C3BE51F1F965B8B6C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45D0DC6D67CA1F2718273D204198E2C7 /* LHYADTool.modulemap */,
+				158428C2C4D5275885CE5D00CA5A6B3E /* LHYADTool-dummy.m */,
+				978CDD16601D52635CEBAC625C0496A1 /* LHYADTool-Info.plist */,
+				1F240E853E4C7B40C7DD316AED91951C /* LHYADTool-prefix.pch */,
+				5CED5EE734BBEA8856A817FFA65B4772 /* LHYADTool-umbrella.h */,
+				7522ABA86AC33EC7805EBD8CA0AE9C4D /* LHYADTool.debug.xcconfig */,
+				A1D4023E874AFD81208E645100EB6457 /* LHYADTool.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LHYADTool";
 			sourceTree = "<group>";
 		};
-		C65487C363CF16ED297B6DD3D25CC5E5 /* Pods-LHYADTool_Example */ = {
+		B69688A0A08920C6F12FD27D72859CC5 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				06341435F265A349632C5CA84E0CBF96 /* Pods-LHYADTool_Example.modulemap */,
-				EAE8E1DF7985C9E3277B976E495C0CF2 /* Pods-LHYADTool_Example-acknowledgements.markdown */,
-				E62B8EFC797B7E438AB022105DAA60FE /* Pods-LHYADTool_Example-acknowledgements.plist */,
-				F3E77EF40F085FB78869592DD8EFF6FE /* Pods-LHYADTool_Example-dummy.m */,
-				B16D67A009A30BE0345275C1DCBE41B7 /* Pods-LHYADTool_Example-Info.plist */,
-				2DF32DC49E56BB7C031C23F67A0B5D8E /* Pods-LHYADTool_Example-umbrella.h */,
-				0E0C9750EFDFBCA15797E6F4E46D49EF /* Pods-LHYADTool_Example.debug.xcconfig */,
-				E0AD86BF9610F81B10C37C035373079A /* Pods-LHYADTool_Example.release.xcconfig */,
+				664A36E7324AD9F687637B8F1983744A /* HYExpressAdView.h */,
+				7233B6A99BEA6872390A8BA8B9A44B3D /* HYExpressAdView.m */,
+				4599E7D09B5E24C8764BAE509751C1D9 /* UKBuSplashManager.h */,
+				DAB995EE4DE0BC0A41AE68D44F25570B /* UKBuSplashManager.m */,
+				7882050C411975128071FBA9667D7441 /* UKExpressAdManager.h */,
+				4FFFD7D34B0A63D72C195615F12A8F64 /* UKExpressAdManager.m */,
+				E0192A4967AA2411E6391047B788D83F /* UKNativeExpressFullscreenManager.h */,
+				14515D44A4EF3F9DD71D3D0FFA00727C /* UKNativeExpressFullscreenManager.m */,
 			);
-			name = "Pods-LHYADTool_Example";
-			path = "Target Support Files/Pods-LHYADTool_Example";
+			name = manager;
+			path = LHYADTool/Classes/manager;
 			sourceTree = "<group>";
 		};
-		CEF83C8A6C3B189531814279C77D5331 /* LHYADTool */ = {
+		C55D2838C6C491ABE545FA14E9284F89 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				FEFDE48B6AB780BE4A299253925A954F /* LHYADTool.h */,
-				7CA44BBB74DD428AC0EA809038CB7DF0 /* Config */,
-				FD09BCF86B4B6E052CE9A92825E207C0 /* LinkVC */,
-				F91F1DE6568909B7E0CA997576962D2D /* Manager */,
-				12551132967727C2931AF8854DC4827D /* Pod */,
-				D5D64FDCB1917D954A8BDB01214DD5B4 /* Reachability */,
-				ADAD55CF9015449CA70A1183572595B3 /* Support Files */,
+				D4A5F3AE82F5E6C8CF9C20BD5B73F07D /* HYUkADIDModel.h */,
+				3F72586E3FF18BCA6EE756CB6932F82C /* HYUkADIDModel.m */,
+				62CE6F1BC4866D147F44BF4FFD00AA64 /* HYVideoVersionModel.h */,
+				F659FCAC4D47C2F67B065C845ED98D6B /* HYVideoVersionModel.m */,
 			);
-			name = LHYADTool;
-			path = ../..;
+			name = model;
+			path = model;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F9F1C02E0796BF7B767756D0815F6742 /* Development Pods */,
+				0B8F8791C398DEEB552CB5B0283D43CA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3B47ABC4D3EBC24A4821476275B3225B /* Products */,
-				416F77E27C908894EA861FBF8FACF57C /* Targets Support Files */,
+				7E798AF69A04218482AEA5B93C494630 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,44 +330,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5D64FDCB1917D954A8BDB01214DD5B4 /* Reachability */ = {
+		D2EDB71C3C844E6757A5F11CA40707DC /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				01F30FDBF1F380C39F12FE8039EBD66C /* LHYReachability.h */,
-				3D03CBFFD38848E30C78CBAE0B414F64 /* LHYReachability.m */,
+				15F106CCB0814F4A2A62989148B6623D /* HYUKBaseRequset.h */,
+				3E5882A87A0111CD198D0F39D00F4D00 /* HYUKBaseRequset.m */,
+				E9D6725E40A540AAD8877E2A0ED6305F /* HYUkRequestWorking.h */,
+				6A1EBC1826B7E96C9803BD66CBCAE952 /* HYUkRequestWorking.m */,
+				C55D2838C6C491ABE545FA14E9284F89 /* model */,
 			);
-			name = Reachability;
-			path = LHYADTool/Classes/Reachability;
+			name = Api;
+			path = LHYADTool/Classes/Api;
 			sourceTree = "<group>";
 		};
-		F91F1DE6568909B7E0CA997576962D2D /* Manager */ = {
+		EF3F9AB69C66276C6F2E09402AB1B386 /* ConfigManager */ = {
 			isa = PBXGroup;
 			children = (
-				965D6FDC52B07541AFCA2AEF318DA8B5 /* LHYBUAdLinkManager.h */,
-				889397826F9E2F40137C859E09F12EE6 /* LHYBUAdLinkManager.m */,
-				679348D6C2EAEC21C28F0E48C31ED09D /* LHYBURewardedManager.h */,
-				82A07332C2798B8F0C3D1326AF50CD3E /* LHYBURewardedManager.m */,
+				F45C90E72D61FCB759E5411937E38688 /* HYUKConfigManager.h */,
+				97037E3992A0F074C57671F378B5687B /* HYUKConfigManager.m */,
+				B2C072F1E2BD40247FCEB1A06CFD030F /* HYUKInitTool.h */,
+				1AA3AE5810A3EF26DBA5F8451B16B68E /* HYUKInitTool.m */,
+				6F9F50EF3201ABF2534FA89D64497676 /* UIButton+Event.h */,
+				FF1A32B0925D8518E6604F4F7D38B635 /* UIButton+Event.m */,
 			);
-			name = Manager;
-			path = LHYADTool/Classes/Manager;
-			sourceTree = "<group>";
-		};
-		F9F1C02E0796BF7B767756D0815F6742 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CEF83C8A6C3B189531814279C77D5331 /* LHYADTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FD09BCF86B4B6E052CE9A92825E207C0 /* LinkVC */ = {
-			isa = PBXGroup;
-			children = (
-				6F2670525973E6EFDEED9E31C0781169 /* LHYLinkViewController.h */,
-				D6F23342E4DB913195FE192885D3EEF3 /* LHYLinkViewController.m */,
-			);
-			name = LinkVC;
-			path = LHYADTool/Classes/LinkVC;
+			name = ConfigManager;
+			path = LHYADTool/Classes/ConfigManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,19 +368,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		981F4F8D4DFC48130F40EA5392849C2F /* Headers */ = {
+		3C965149BFD400D02B3F6EC035B70692 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B5528AEB57CAAA3C496344F076E4C8 /* LHYADConfig.h in Headers */,
-				EB664F268CBC13A5007E9E028EED3608 /* LHYADInitTool.h in Headers */,
-				E1FE293D6D9BEB9A6360D27DCFA8A265 /* LHYADTool.h in Headers */,
-				1AFD459BB0E63A8AF5B63A12D9806422 /* LHYADTool-umbrella.h in Headers */,
-				5970497956954E1D8A7CD6185C7EB06A /* LHYBUAdLinkManager.h in Headers */,
-				737D353BB9953B138B48B46397CBC079 /* LHYBURewardedManager.h in Headers */,
-				A3465FB87A0DBAAE3D5CCDA2BA40E138 /* LHYConfigManager.h in Headers */,
-				4A5AB7BE9C7DAFD2A818533443BA2DA4 /* LHYLinkViewController.h in Headers */,
-				B490EEB240EAA18DE2C6D6042A4B935F /* LHYReachability.h in Headers */,
+				79F1D47BF2BD4D0665A45FF81CA394AC /* HYADReachability.h in Headers */,
+				8135FF710FD8CFF3720FF33B3C7FCBB9 /* HYExpressAdView.h in Headers */,
+				49DBA4C7261A3773C3DB6B368A693016 /* HYUKADHeader.h in Headers */,
+				0EAD1F5121E7110977DD45D2632C4D94 /* HYUkADIDModel.h in Headers */,
+				54078487A18E61823E67B66E4606000E /* HYUKBaseRequset.h in Headers */,
+				39E92954BC285815CE9ABDC2077C0F66 /* HYUKConfigManager.h in Headers */,
+				BC92EF2D1BDDBFBF0A9D1F1203C44BD6 /* HYUKInitTool.h in Headers */,
+				E5B2EF066D7309999CF5A45480A0226E /* HYUKLinkViewController.h in Headers */,
+				6CC2C9F839EAB93B283CB70410003B20 /* HYUkRequestWorking.h in Headers */,
+				B41A5785988938EC7EC30D3A410CE3F0 /* HYVideoVersionModel.h in Headers */,
+				AF98C804FAE2A5AC2A8462126C00BA35 /* LHYADTool-umbrella.h in Headers */,
+				ADE914695683A24C4DBE3E96982FA3F4 /* UIButton+Event.h in Headers */,
+				47D4359001A88E6268769338EB6F0B00 /* UKBuSplashManager.h in Headers */,
+				8D89C590986652E3722FDCE50C910796 /* UKExpressAdManager.h in Headers */,
+				A09F1B4825AFD1FA7ABB4D0D03094504 /* UKNativeExpressFullscreenManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,12 +403,12 @@
 /* Begin PBXNativeTarget section */
 		929F7AB9BBADDB67528FC2F39480E4CB /* LHYADTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E47F5E70198CB27ABF0EF57A008FE48 /* Build configuration list for PBXNativeTarget "LHYADTool" */;
+			buildConfigurationList = 8D31DEAE87E7F2F35147D47F4500E181 /* Build configuration list for PBXNativeTarget "LHYADTool" */;
 			buildPhases = (
-				981F4F8D4DFC48130F40EA5392849C2F /* Headers */,
-				09DD30E324B2EBA38B4A1E5F29EB7AF5 /* Sources */,
-				1A081D26455CEF42238056DC28B62D11 /* Frameworks */,
-				CF0DFA746DB3E3A2A75EA03CC2579225 /* Resources */,
+				3C965149BFD400D02B3F6EC035B70692 /* Headers */,
+				AE3BCC29743EA19A2E0997DB5C264570 /* Sources */,
+				292AED4817B11D9AD4DE257EEF1770ED /* Frameworks */,
+				B15E5270FBB0315086A1191BE8E207D7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,7 +431,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				19905BCD7E46662D3C46EE841605D5FF /* PBXTargetDependency */,
+				B7C21F9FBE6155A81AC7600F6A87C80D /* PBXTargetDependency */,
 			);
 			name = "Pods-LHYADTool_Example";
 			productName = Pods_LHYADTool_Example;
@@ -386,7 +450,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DA5A3EBB1391B0DC6F2E3544A4FD75F5 /* PBXTargetDependency */,
+				4CF5774D2862D27D1AA50C14F8832D85 /* PBXTargetDependency */,
 			);
 			name = "Pods-LHYADTool_Tests";
 			productName = Pods_LHYADTool_Tests;
@@ -437,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF0DFA746DB3E3A2A75EA03CC2579225 /* Resources */ = {
+		B15E5270FBB0315086A1191BE8E207D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,26 +511,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09DD30E324B2EBA38B4A1E5F29EB7AF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45570E6F2A70B93AF3DF1334E5938C73 /* LHYADConfig.m in Sources */,
-				A2CA1F51A63FD6D5F68BC45F2D34BEBB /* LHYADInitTool.m in Sources */,
-				533EFDB38C7CF50E2236383228875D69 /* LHYADTool-dummy.m in Sources */,
-				077E6B191951E47D259728FE18346292 /* LHYBUAdLinkManager.m in Sources */,
-				726C25F806B27379833EE26BCEE3E7C7 /* LHYBURewardedManager.m in Sources */,
-				5380ED01F177950248B06CD050CA9EA9 /* LHYConfigManager.m in Sources */,
-				62552FB925ABFB03DA617C66F4CCB700 /* LHYLinkViewController.m in Sources */,
-				52FCFBDBB3D95C0C2363C562BFDE42B9 /* LHYReachability.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		18C01B812C0E77F7BFB7794D9802C670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C0A6571D40AC7072BB47DF5D6017A312 /* Pods-LHYADTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3BCC29743EA19A2E0997DB5C264570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ADE6A4A21E243CFCD7DBB1392BFB7D /* HYADReachability.m in Sources */,
+				742893028959551D2A00E4B2AC79C6DA /* HYExpressAdView.m in Sources */,
+				491BB2158BA0BAF86129EC9ACE97A7CA /* HYUkADIDModel.m in Sources */,
+				869D61612DA65DEDB4B813058F2B4821 /* HYUKBaseRequset.m in Sources */,
+				08971E2FAFB2376F36BA7B7EA756A467 /* HYUKConfigManager.m in Sources */,
+				30FF3BAB5F174AE3F62D69BDCF491F2D /* HYUKInitTool.m in Sources */,
+				9A67391705F0344F306BC25E85F16DA0 /* HYUKLinkViewController.m in Sources */,
+				64F4C83FBCEB189C5E8D4F2035593AA4 /* HYUkRequestWorking.m in Sources */,
+				0386F9DD7AA223C7A24850860385C66C /* HYVideoVersionModel.m in Sources */,
+				6EC64A967BE9196264CCB62267FEC40C /* LHYADTool-dummy.m in Sources */,
+				942135D46FA9C992AC73B22DD65334F0 /* UIButton+Event.m in Sources */,
+				894BB82A0A6701F2B1811741927D6863 /* UKBuSplashManager.m in Sources */,
+				E868F353EA21EC3D304485FBB24F6BDE /* UKExpressAdManager.m in Sources */,
+				5B25BDBC67BE1BCCA4DF307D1263B5CD /* UKNativeExpressFullscreenManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,24 +551,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19905BCD7E46662D3C46EE841605D5FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LHYADTool;
-			target = 929F7AB9BBADDB67528FC2F39480E4CB /* LHYADTool */;
-			targetProxy = 12F4E9440EA3636590C2AF1AE6C9060D /* PBXContainerItemProxy */;
-		};
-		DA5A3EBB1391B0DC6F2E3544A4FD75F5 /* PBXTargetDependency */ = {
+		4CF5774D2862D27D1AA50C14F8832D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LHYADTool_Example";
 			target = BF6E5CB9678601E7461789929209998B /* Pods-LHYADTool_Example */;
-			targetProxy = 985ABEC7E61D076D5848EEE9C10948A6 /* PBXContainerItemProxy */;
+			targetProxy = 69E7D75823140B18BB0655599987FB0F /* PBXContainerItemProxy */;
+		};
+		B7C21F9FBE6155A81AC7600F6A87C80D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LHYADTool;
+			target = 929F7AB9BBADDB67528FC2F39480E4CB /* LHYADTool */;
+			targetProxy = A6A3A746C4D1AB1A0D413BECF264826D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		07C4C056596F7A498E5FCB1AEB274F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 858EB8C99A322EB609511E8A5AC0AFE7 /* Pods-LHYADTool_Tests.debug.xcconfig */;
+			baseConfigurationReference = 49E73823C353B4EBC505DC95C2A1A020 /* Pods-LHYADTool_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -529,9 +599,41 @@
 			};
 			name = Debug;
 		};
+		14C03801A324655F192586429B164159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D4023E874AFD81208E645100EB6457 /* LHYADTool.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LHYADTool/LHYADTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHYADTool/LHYADTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/LHYADTool/LHYADTool.modulemap";
+				PRODUCT_MODULE_NAME = LHYADTool;
+				PRODUCT_NAME = LHYADTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3EF9819799715D399588457ADFE14E82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0AD86BF9610F81B10C37C035373079A /* Pods-LHYADTool_Example.release.xcconfig */;
+			baseConfigurationReference = F8D1C6AD0DFE68EC48F004A80EADD3DA /* Pods-LHYADTool_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -565,7 +667,7 @@
 		};
 		4926A42AF24DBD8F9C35F0F51E9E277A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E0C9750EFDFBCA15797E6F4E46D49EF /* Pods-LHYADTool_Example.debug.xcconfig */;
+			baseConfigurationReference = 0A442C065005AC89BC41FF537696B564 /* Pods-LHYADTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -598,7 +700,7 @@
 		};
 		51ADCC5A568C6B251245DCC0A0BEC12B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 417F589C57F67AD129F18839B2BE5E37 /* Pods-LHYADTool_Tests.release.xcconfig */;
+			baseConfigurationReference = 5A38E36B6F7D94BCF7A2B42ED0AC8941 /* Pods-LHYADTool_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -692,9 +794,9 @@
 			};
 			name = Release;
 		};
-		7FDF91EE062F569E0ECB0E1B972F71EA /* Release */ = {
+		D0468EB96F4476A54829745E707F23FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58E6AED7E007162615C0980E178E8B3B /* LHYADTool.release.xcconfig */;
+			baseConfigurationReference = 7522ABA86AC33EC7805EBD8CA0AE9C4D /* LHYADTool.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -707,39 +809,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/LHYADTool/LHYADTool-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LHYADTool/LHYADTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LHYADTool/LHYADTool.modulemap";
-				PRODUCT_MODULE_NAME = LHYADTool;
-				PRODUCT_NAME = LHYADTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C060F70555D5ED53D8A10F4EB0E9E8D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FDF6BF73860B3435898B44AF4FCB159 /* LHYADTool.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LHYADTool/LHYADTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LHYADTool/LHYADTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/LHYADTool/LHYADTool.modulemap";
@@ -824,20 +894,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E47F5E70198CB27ABF0EF57A008FE48 /* Build configuration list for PBXNativeTarget "LHYADTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C060F70555D5ED53D8A10F4EB0E9E8D4 /* Debug */,
-				7FDF91EE062F569E0ECB0E1B972F71EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D31DEAE87E7F2F35147D47F4500E181 /* Build configuration list for PBXNativeTarget "LHYADTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0468EB96F4476A54829745E707F23FF /* Debug */,
+				14C03801A324655F192586429B164159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
